@@ -1,0 +1,122 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    background: linear-gradient(to right bottom, rgb(65, 55, 3), rgb(3, 24, 49), rgb(4, 71, 13));
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app-wrapper {
+    background-color: rgb(235, 229, 229);
+    min-width: 500px;
+    height: 520px;
+    padding: 3px;
+    box-shadow: 3px 6px 40px black;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    
+}
+
+.header h1 {
+    color: rgb(14, 13, 13);
+    text-align: center;
+    margin: 20px 0;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.task-input{
+    outline: none;
+    width: 350px;
+    padding: 10px;
+    margin-right: 25px;
+    margin-left: 20px;
+    font-size: 1rem;
+    color: rgb(3, 3, 3);
+    background-color: white;
+    border: 1px solid black;
+}
+
+.button-add {
+    width: 78px;
+    font-size: 1rem;
+    padding: 10px;
+    background-color: rgb(33, 45, 218);
+    outline: none;
+    border: none;
+    color: rgb(255, 255, 255);
+    margin-right: 10px;
+    font-weight: bold;
+
+}
+
+.list-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 20px 0;
+    padding: 10px;
+    max-height: 30px;
+    text-decoration: none;
+    
+   
+
+}
+
+.button-complete{
+    background-color: green;
+    color: aliceblue;
+}
+.button-delete{
+    background-color: rgb(231, 14, 14);
+    color: aliceblue;
+}
+.button-edit {
+    background-color: rgb(33, 45, 218);
+    color: aliceblue;
+
+}
+
+.task-button{
+    border: none;
+    padding: 0.5rem;
+    outline: none;
+    cursor: pointer;
+    font-size: 1rem;
+    margin: 5px;
+    border-radius: 48%;
+}
+
+.btns {
+    margin-right: 20px;
+    align-items: center;
+}
+
+.todo-text{
+    margin: 10px;
+    
+}
+
+.list {
+    padding: 0.5rem;
+    outline: none;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-left: 10px;
+    margin-right: fixed;
+    height: 35px;
+}
+
+.complete {
+    text-decoration-style: solid;
+    text-decoration-line: line-through;
+    text-decoration-color: black;   
+}
